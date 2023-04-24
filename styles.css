@@ -1,24 +1,73 @@
-/* your code here */
+*{
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    margin: 0;
+    /* text-decoration: none; */
+    padding: 0;
+}
 
 .content{
     background-color: black;
+    padding-bottom: 40px;
 }
 
 .top{
     display: flex;
     justify-content: space-between;
-/* 	align-item: center; */
     padding: 30px;
 }
 
 .top .logo-details{
     color: white;
-	margin-left: 20px;
-	margin-top: -12px;
-    font-size: 40px;
-	font-family: sans-serif;
+    font-size: 35px;
 }
 
 .top .media-icons a{
     margin-right: 20px;
+}
+
+.link-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul{
+    margin-top: 20px;
+    /* padding: 0px; */
+    /* text-decoration: none; */
+}
+
+.link-boxes div:first-child{
+    margin-left: 30px;
+}
+
+.link-boxes div:last-child{
+    margin-right: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li{
+    margin-top: 10px;
+}
+
+.bottom-details{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom-details p:first-child{
+    margin-left: 30px;
+}
+
+.bottom-details p:last-child{
+    margin-right: 30px;
 }
