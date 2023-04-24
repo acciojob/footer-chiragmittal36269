@@ -1,1 +1,24 @@
 /* your code here */
+
+.content{
+    background-color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+/* 	align-item: center; */
+    padding: 30px;
+}
+
+.top .logo-details{
+    color: white;
+	margin-left: 20px;
+	margin-top: -12px;
+    font-size: 40px;
+	font-family: sans-serif;
+}
+
+.top .media-icons a{
+    margin-right: 20px;
+}
