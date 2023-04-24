@@ -12,6 +12,10 @@
     padding-bottom: 40px;
 }
 
+.media-icons{
+	display:flex;
+}
+
 .top{
     display: flex;
     justify-content: space-between;
@@ -35,6 +39,8 @@
 
 ul{
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     /* padding: 0px; */
     /* text-decoration: none; */
 }
